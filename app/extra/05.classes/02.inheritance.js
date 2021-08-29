@@ -6,7 +6,7 @@ import $ from 'jquery';
 import { log, logTitle } from 'logger';
 
 /* code */
-logTitle("Classes");
+logTitle("Inheritance");
 
 class Animal {
 
