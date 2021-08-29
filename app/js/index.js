@@ -5,14 +5,13 @@ require('styles/main.scss');
 import $ from 'jquery';
 import { log, logTitle } from 'logger';
 
+import * as Math from './Math';
+
 /* code */
-logTitle("Callbacks");
+logTitle("Named Exports / Imports");
 
-function callbackExample(name, callback) {
-    log(callback(name));
-}
-
-var callback = function(name) {
-    return "Hola " + name;
-};
-callbackExample("Raheem", callback);
+log(Math.add(5, 6));
+log(Math.subtract(5 ,6));
+log(Math.multiply(5, 6));
+log(Math.divide(5, 6));
+log(Math.PI);
