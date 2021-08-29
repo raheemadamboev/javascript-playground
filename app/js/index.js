@@ -5,13 +5,11 @@ require('styles/main.scss');
 import $ from 'jquery';
 import { log, logTitle } from 'logger';
 
-import * as Math from './Math';
+import {add, multiply, PI} from './Math';
 
 /* code */
 logTitle("Named Exports / Imports");
 
-log(Math.add(5, 6));
-log(Math.subtract(5 ,6));
-log(Math.multiply(5, 6));
-log(Math.divide(5, 6));
-log(Math.PI);
+log(add(5, 6));
+log(multiply(5, 6));
+log(PI);
