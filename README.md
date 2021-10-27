@@ -1,6 +1,6 @@
 # javascript-playground
 
-**JavaScript playground to play with JavaScript!**
+**JavaScript playground to play with JavaScript!** 
 
 1. Foundation
 2. Modules
